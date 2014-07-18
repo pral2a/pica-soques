@@ -28,7 +28,9 @@ var request = http.get(config.download_url, function (response) {
 
         fs.exists(config.store_file, function (exists) {
             if (exists) {
+
                 fs.readFile(config.store_file, function (err, data) {
+                    
                     if (err) return console.log(err);
 
                     storeObject = JSON.parse(data);
@@ -58,10 +60,13 @@ var request = http.get(config.download_url, function (response) {
                     });
 
                 });
+
             } else {
+
                 fs.writeFile(config.store_file, JSON.stringify(newStoreObject), function (err) {
                     if (err) return console.log(err);
                 });
+
             }
         });
 
