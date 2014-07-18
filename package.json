@@ -1,0 +1,23 @@
+{
+  "name": "pica-soques",
+  "version": "0.0.0",
+  "description": "Check a file hosted on a URL perdiodically and send a notiication email when it change.",
+  "main": "app.js",
+  "dependencies": {
+    "nodemailer": "^1.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pral2a/Pica-soques.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pral2a/Pica-soques/issues"
+  },
+  "homepage": "https://github.com/pral2a/Pica-soques"
+}

@@ -1,0 +1,22 @@
+{
+    "download_url": "http://codebender.cc/codebender.xpi",
+    "store_file": "store.json",
+    "email_notifications_settings": {
+        "server": {
+            "service": "Gmail",
+            "auth": {
+                "user": "services@smartcitizen.me",
+                "pass": "xxxx"
+            }
+        },
+        "content": {
+            "from": "SmartCitizen.me - Services <services@smartcitizen.me>",
+            "to": "guillem@iaac.net",
+            "subject": "[SmartCitizen] - Codebender Plugin Update Notifier",
+            "variableContent": {
+                "updated": " ✘ ALERT!: Updated",
+                "fine": "✔ Everything calm..."
+            }
+        }
+    }
+}
